@@ -5,10 +5,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Start loading assets right away, to have them (partly) loaded already when they are requested -->
-  <link rel="preload" href="Build//WGL.data.unityweb" as="fetch" type="application/octet-stream" crossorigin>
-  <link rel="preload" href="Build/WGL.framework.js.unityweb" as="script">
-  <link rel="preload" href="Build/WGL.wasm.unityweb" as="fetch" type="application/wasm" crossorigin>
-  <title>Conflict Management (FULL)</title>
+  <link rel="preload" href="Build/WGL.data" as="fetch" type="application/octet-stream" crossorigin>
+  <link rel="preload" href="Build/WGL.framework.js" as="script">
+  <link rel="preload" href="Build/WGL.wasm" as="fetch" type="application/wasm" crossorigin>
+  <title>EBS Hazard Identification</title>
   <style>
     * {
       padding: 0;
@@ -113,9 +113,9 @@
     var buildUrl = "Build";
     var loaderUrl = buildUrl + "/WGL.loader.js";
     var config = {
-      dataUrl: buildUrl + "/WGL.data.unityweb",
-      frameworkUrl: buildUrl + "/WGL.framework.js.unityweb",
-      codeUrl: buildUrl + "/WGL.wasm.unityweb",
+      dataUrl: buildUrl + "/WGL.data",
+      frameworkUrl: buildUrl + "/WGL.framework.js",
+      codeUrl: buildUrl + "/WGL.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "GeneXR",
       productName: "Energy Base Safety",
